@@ -12,6 +12,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
     <!-- Short cut icon -->
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Weight Converter</title>
@@ -20,14 +22,43 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 offset-3">
+            <div class="col-md-6 offset-3 winter-neva-gradient">
                 <h1 class="display-4 text-center">Weight Converter</h1>
+                <form action="" class="mt-4">
+                    <div class="form-group">
+                        <input type="number" name="" id="lbs-input" class="form-control form-control-lg" placeholder="Enter Pounds...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card p-4 mb-4 purple-gradient">
+                        <h4>Grams: </h4>
+                        <div id="gramsOutput"></div>
+                    </div>
+                    <div class="card p-4 mb-4 blue-gradient">
+                        <h4>Kil Grams: </h4>
+                        <div id="kgsOutput"></div>
+                    </div>
+                    <div class="card p-4 mb-4 aqua-gradient">
+                        <h4>Ounces: </h4>
+                        <div id="ouncesOutput"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js"></script>
 </body>
 
 </html>

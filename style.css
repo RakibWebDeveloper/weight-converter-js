@@ -1,0 +1,17 @@
+body  {
+    margin-top: 70px;
+    
+    background-image: url('./biography-bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.row .col-md-6 {
+    padding: 40px;
+    border-radius: 5px;
+    background-color: rgb(240, 224, 255);
+    box-shadow: 5px 5px 10px rgba(0, 255, 255, 0.103);
+}
+.card {
+    color: whitesmoke;
+}
